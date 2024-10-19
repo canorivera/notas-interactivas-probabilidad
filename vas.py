@@ -29,7 +29,7 @@ st.markdown(r'''
             
     Además, si X es una v.a.c., entonces:
     1. $P(a \leq x \leq b) = P(X \leq b) - P(X \leq a) = F_x(b) - F_x(a) $
-    2. $F_x(X) = P(X \leq x) = \int_{\infin}^x f_x(x)dx$
+    2. $F_x(X) = P(X \leq x) = \int_{-\infin}^x f_x(t)dt$
     3. $f_x(x) = \frac{d}{dx}F_x(x) $
     ''')
 

@@ -26,15 +26,16 @@ st.markdown('''
                 3. Función de distribución acumulada
                 4. Características numéricas de las variables aleatorias
             
-                    1. Momentos y momentos centrales
+                    1. Esperanza
+                    2. Varianza
+                    3. Momentos y momentos centrales
                     2. Tendencia central: media, mediana y moda
                     3. Localizaciión: cuantiles
                     4. Dispersión: varianza, desviación estándar, coeficiente de variación, amplitud intercuartil
                     5. Simetría: coeficiente de asimetría, coeficiente de curtosis
-                5. Lotus o ley del estadístico inconsciente
-                6. Función generadora de momentos 
-                7. Desigualdades de Tchebysheb y Jensen
-                8. Transformaciones de vaariables aleatorias continuas
+                5. Función generadora de momentos 
+                6. Desigualdades de Tchebysheb y Jensen
+                7. Transformaciones de vaariables aleatorias continuas
             
                     1. Método de la función de distribución acumulada
                     2. Método de la transformación monótona
