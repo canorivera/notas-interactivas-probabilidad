@@ -7,7 +7,8 @@ st.markdown('Se dice que $X$ es una variable aleatoria si $:\Omega \mapsto \Real
 st.markdown(r'''
     ## Función de masa de probabilidad
     Definición: Si $X$ es una v.a.d. con soporte $S_x = \{x_1, x_2, ... \}$ se dice que $f_x(x) = \Reals \to [0,1]$ es la función de masa de probabilidad (f.m.p.) si:
-        1. $ \[ f_x(x) = \begin{cases} P(X = x) > 0 & , x = x_i \forall i \\ 0 & e.o.c. \end{cases} \] $
+            
+            1. $ \[ f_x(x) = \begin{cases} P(X = x) > 0 & , x = x_i \forall i \\ 0 & e.o.c. \end{cases} \] $
 ''')
 
 st.markdown("## Función de densidad de probabilidad")
