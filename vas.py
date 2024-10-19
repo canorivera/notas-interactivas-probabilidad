@@ -1,2 +1,2 @@
 import streamlit as st
-st.markdown("# Variables aleatorias")
+st.header("Variables aleatorias")

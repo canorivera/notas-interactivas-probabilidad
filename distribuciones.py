@@ -1,2 +1,2 @@
 import streamlit as st
-st.markdown("# Distribuciones de probabilidad importantes")
+st.header("Distribuciones de probabilidad importantes")

@@ -1,2 +1,2 @@
 import streamlit as st
-st.markdown("# Fundamentos de probabilidad")
+st.header("Fundamentos de probabilidad")
