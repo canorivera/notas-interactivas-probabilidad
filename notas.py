@@ -6,7 +6,7 @@ fundamentos = st.Page("fundamentos.py", title="Fundamentos de probabilidad")
 vas = st.Page("vas.py", title="Variables aleatorias")
 distribuciones = st.Page("distribuciones.py", title="Distribuciones de probabilidad")
 multivariadas = st.Page("multivariadas.py", title = "Distribuciones multivariadas")
-general = st.Page("general.py", title = "General")
+general = st.Page("general.py", title = "General", default= True)
 pg = st.navigation(
     {
         "General": [general],
