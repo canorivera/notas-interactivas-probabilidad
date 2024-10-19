@@ -7,7 +7,7 @@ fundamentos = st.Page("fundamentos.py", title="Fundamentos de probabilidad")
 vas = st.Page("vas.py", title="Variables aleatorias")
 distribuciones = st.Page("distribuciones.py", title="Distribuciones de probabilidad")
 multivariadas = st.Page("multivariadas.py", title = "Distribuciones multivariadas")
-st.set_page_config(page_title="Notas interactivas de probabilidad", page_icon=":favicon:")
+st.set_page_config(page_title="Notas interactivas de probabilidad", page_icon="favicon.ico")
 pg = st.navigation(
     {
         "Primer parcial": [fundamentos],
