@@ -34,3 +34,13 @@ st.markdown(r'''
     ''')
 
 st.markdown("## Características numéricas de las variables aleatorias")
+st.markdown('''
+    ### Esperanza
+    Esperanza de una v.a.d.: $E[X] = \sum_{x \in S_x} x \cdot P(X = x) = \mu_x$
+    Esperanza de una v.a.c.: $E[X] = \int_{x \in S_x} x \cdot f_x(X) dx = \mu_x$
+            
+    La esperanza o valor esperado cumple con las siguientes propiedades para $X, Y$ variables aleatorias y $c$ una constante:
+    1. $E[c] = c$
+    2. $E[cX] = c \cdot E[X]$
+    3. $E[X + Y] = E[X] + E[Y] $
+    ''')
