@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.header("Temario")
+st.markdown("# Temario")
+st.markdown("1. Hola")
 
 fundamentos = st.Page("fundamentos.py", title="Fundamentos de probabilidad")
 vas = st.Page("vas.py", title="Variables aleatorias")
