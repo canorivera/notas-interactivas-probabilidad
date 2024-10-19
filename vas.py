@@ -29,7 +29,9 @@ st.markdown(r'''
             
     Además, si X es una v.a.c., entonces:
     1. $P(a \leq x \leq b) = P(X \leq b) - P(X \leq a) = F_x(b) - F_x(a) $
+    
     2. $F_x(X) = P(X \leq x) = \int_{-\infin}^x f_x(t)dt$
+    
     3. $f_x(x) = \frac{d}{dx}F_x(x) $
     ''')
 
@@ -37,6 +39,7 @@ st.markdown("## Características numéricas de las variables aleatorias")
 st.markdown('''
     ### Esperanza
     Esperanza de una v.a.d.: $E[X] = \sum_{x \in S_x} x \cdot P(X = x) = \mu_x$
+            
     Esperanza de una v.a.c.: $E[X] = \int_{x \in S_x} x \cdot f_x(X) dx = \mu_x$
             
     La esperanza o valor esperado cumple con las siguientes propiedades para $X, Y$ variables aleatorias y $c$ una constante:
