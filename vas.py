@@ -77,9 +77,40 @@ Si $X$ es una v.a. y $k \in \Z^+$:
 
 st.markdown(r'''
 ### Medidas de tendencia central 
-Media: esperanza o primer momento
+**Media:** esperanza o primer momento
             
-Mediana: Si X es una v.a. con f.d.a. $F_x(X), entonces la mediana, $\tilde{x}$ es el valor del soporte de $X$ tal que:
+**Mediana:** Si X es una v.a. con f.d.a. $F_x(X), entonces la mediana, $\tilde{x}$ es el valor del soporte de $X$ tal que:
 - Si X es discreta: $F_x(\tilde{x}^-) \leq \frac{1}{2} \leq F_x(\tilde{x})$
 - Si X es continua: $F_x(\tilde{x}) = P(X \leq \tilde{x}) = \frac{1}{2}$
+
+**Moda:**
             ''')
+
+st.markdown('''
+### Mediads de localización
+**Percentiles:**
+            
+**Deciles:**
+
+**Cuartiles:**
+''')
+
+st.markdown('''
+### Medidas de dispersión
+**Amplitud intercuartil:**
+            
+**Varianza:**
+            
+**Desviación estándar:**
+
+**Coeficiente de variación:**
+            
+''')
+
+st.markdown('''
+### Mediads de simetría
+**Coeficiente de asimetría:**
+            
+**Coeficiente de curtosis:**
+
+''')
