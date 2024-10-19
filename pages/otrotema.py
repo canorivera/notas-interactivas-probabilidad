@@ -1,4 +1,4 @@
 import streamlit as st
 
-st.header("Otro tema")
-st.sidebar.markdown("# Otro tema")
+st.markdown("# Page 2 ❄️")
+st.sidebar.markdown("# Page 2 ❄️")
