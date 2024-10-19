@@ -6,13 +6,13 @@ st.markdown('Se dice que $X$ es una variable aleatoria si $:\Omega \mapsto \Real
 
 st.markdown(r''' 
     ## Función de masa de probabilidad
-    Definición: Si $X$ es una v.a.d. con soporte $S_x = \{x_1, x_2, ... \}$ se dice que $f_x(x) = \Reals \to [0,1]$ es la función de masa de probabilidad (f.m.p.) si: 
+    Definición: si $X$ es una v.a.d. con soporte $S_x = \{x_1, x_2, ... \}$ se dice que $f_x(x) = \Reals \to [0,1]$ es la función de masa de probabilidad (f.m.p.) si: 
     1. $f_x(x) = \begin{cases} P(X = x) > 0 & x = x_i \forall i \\ 0 & e.o.c. \end{cases}$
     2. $\sum_x f_x(x) = 1 $
     ''')
 st.markdown(r''' 
     ## Función de densidad de probabilidad
-    Definición: Si $X$ es una v.a.c. se dice que $f_x(x): \Reals \to [0, \infin] $ es la función de densidad de probabilidad de $X$ si:
+    Definición: si $X$ es una v.a.c. se dice que $f_x(x): \Reals \to [0, \infin] $ es la función de densidad de probabilidad (f.d.p.) de $X$ si:
     1. $f_x(x) \geq 0, \forall x \in \Reals$
     2. $\intop_{-\infin}^{\infin} f_x(x) dx = 1$
             
@@ -23,5 +23,14 @@ st.markdown(r'''
 ''')
 
 
-st.markdown("## Función de distribución acumulada")
+st.markdown('''
+    ## Función de distribución acumulada
+    Definición: se dice que la función $F_x(x): \Reals \to [0,1]$ es la función de distribución acumulada (f.d.a.) de la v.a. si $F_x(X) = P(X \leq x)$
+            
+    Además, si X es una v.a.c., entonces:
+    1. $P(a \leq x \leq b) = P(X \leq b) - P(X \leq a) = F_x(b) - F_x(a) $
+    2. $F_x(X) = P(X \leq x) = \int_{\infin}^x f_x(x)dx$
+    3. $f_x(x) = \frac{d}{dx}F_x(x) $
+    ''')
+
 st.markdown("## Características numéricas de las variables aleatorias")
