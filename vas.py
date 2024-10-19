@@ -114,3 +114,67 @@ st.markdown('''
 **Coeficiente de curtosis:**
 
 ''')
+
+st.markdown('''
+### Función generadora de momentos
+            ''')
+
+st.markdown('''
+### Desigualdades de Tchebysheb y Jensen
+            ''')
+
+st.markdown('''
+### Transformaciones de variables aleatorias continuas
+            ''')
+
+st.markdown('''### Distribuciones discretas''')
+
+st.markdown('''
+#### Uniforme
+            ''')
+
+st.markdown('''
+#### Bernoulli
+            ''')
+
+st.markdown('''
+#### Binomial
+            ''')
+
+st.markdown('''
+#### Binomial negativa
+            ''')
+
+st.markdown('''
+#### Geométrica
+            ''')
+
+st.markdown('''
+#### Hipergeométrica
+            ''')
+
+st.markdown('''
+#### Poisson
+            ''')
+
+st.markdown('''### Distribuciones continuas''')
+
+st.markdown('''
+#### Uniforme
+            ''')
+
+st.markdown('''
+#### Gamma
+            ''')
+
+st.markdown('''
+#### Exponencial
+            ''')
+
+st.markdown('''
+#### $\chi^2$
+            ''')
+
+st.markdown('''
+#### Normal
+            ''')

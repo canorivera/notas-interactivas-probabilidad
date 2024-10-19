@@ -35,7 +35,7 @@ st.markdown('''
                     5. Simetría: coeficiente de asimetría, coeficiente de curtosis
                 5. Función generadora de momentos 
                 6. Desigualdades de Tchebysheb y Jensen
-                7. Transformaciones de vaariables aleatorias continuas
+                7. Transformaciones de variables aleatorias continuas
             
                     1. Método de la función de distribución acumulada
                     2. Método de la transformación monótona
