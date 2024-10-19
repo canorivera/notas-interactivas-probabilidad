@@ -23,7 +23,7 @@ st.markdown(r'''
 ''')
 
 
-st.markdown('''
+st.markdown(r'''
     ## Función de distribución acumulada
     Definición: se dice que la función $F_x(x): \Reals \to [0,1]$ es la función de distribución acumulada (f.d.a.) de la v.a. si $F_x(X) = P(X \leq x)$
             
