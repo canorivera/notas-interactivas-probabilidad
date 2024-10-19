@@ -8,8 +8,18 @@ st.markdown(r'''
     ## Función de masa de probabilidad
     Definición: Si $X$ es una v.a.d. con soporte $S_x = \{x_1, x_2, ... \}$ se dice que $f_x(x) = \Reals \to [0,1]$ es la función de masa de probabilidad (f.m.p.) si: 
     1. $f_x(x) = \begin{cases} P(X = x) > 0 & x = x_i \forall i \\ 0 & e.o.c. \end{cases}$
-    2. 
+    2. $\sum_x f_x(x) = 1 $
     ''')
+st.markdown(r''' 
+    ## Funci[on de densidad de probabilidad
+    Definición: Si $X$ es una v.a.c. se dice que $f_x(x): \Reals \to [0, \infin] $ es la función de densidad de probabilidad de $X$ si:
+    1. $f_x(x) \geq 0 \forall x \in \Reals$
+    2. $\int_{-\infin}^{\infin} f_x(x) dx = 1$
+    Además, cumple con las propiedades:
+    1. $P[a \leq x \leq b] = \int_{a}^b f_x(x) dx$
+    2. $P[x = a] = \int_{a}^a f_x(x) dx = 0$
+    3. $P[x \leq a] = P[x < a]$
+''')
 
 
 st.markdown("## Función de densidad de probabilidad")
